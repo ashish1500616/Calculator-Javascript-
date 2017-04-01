@@ -1,0 +1,22 @@
+#parent{
+	background-color: slategrey;
+}
+.result {
+    text-align: center;
+}
+
+.jumbotron {
+    min-height: 500px;
+}
+
+.but {
+    min-width: 50px !important;
+    min-height: 50px !important;
+    margin-bottom: 2px;
+}
+
+button{
+    width: 24%;
+    padding-left: 5%;
+    padding-top: 8%;
+}
