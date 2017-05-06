@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script src="scrip.js"></script>
 </head>
 
 <body>
@@ -22,70 +24,71 @@
                     <hr> <hr>
 
                 <div class="well well-lg result">
-                    result
+                    <div id="resu"></div>
+                    <div id="log"></div>
                 </div>
                 <!-- buttons -->
                 <hr>
                 <div >
                     <!--row 1-->
-                    <button type="button" value="AC ">
+                    <button id="ac" onclick="gB(this)" type="button" value="AC ">
                         <div class="  col-md-3 but">AC</div>
                     </button>
                     
-                     <button type="button" value="AC ">
+                     <button id="+" onclick="gB(this)" type="button" value="AC ">
                     <div class="3 col-md-3 but" > +  <sub>/-</sub></div>
                     </button>
-                     <button type="button" value="AC ">
+                     <button id="%" onclick="gB(this)" type="button" value="AC ">
                         <div class="  col-md-3 but"> %</div>
                     </button>
-                     <button type="button" value="AC ">
+                     <button id="/" onclick="gB(this)" type="button" value="AC ">
                         <div class=" col-md-3 but"> ÷ </div>
                     </button>
 
-                     <button type="button" value="AC ">
+                     <button id="7" onclick="gB(this)" type="button" value="AC ">
                         <div class=" col-md-3 but">7</div>
                     </button>
-                     <button type="button" value="AC ">
+                     <button id="8" onclick="gB(this)" type="button" value="AC ">
                        <center> <div class=" col-md-3 but" >8 </div></center>
                     </button>
-                     <button type="button" value="AC ">
+                     <button id="9" onclick="gB(this)" type="button" value="AC ">
                         <div class=" col-md-3 but">9</div>
                     </button>
-                     <button type="button" value="AC ">
+                     <button id="*" onclick="gB(this)" type="button" value="AC ">
                         <div class=" col-md-3 but"> × </div>
                     </button>
 
-                     <button type="button" value="AC ">
+                     <button id="4" onclick="gB(this)" type="button" value="AC ">
                         <div class="col-md-3 but">4</div>
                     </button>
-                     <button type="button" value="AC ">
+                     <button id="5" onclick="gB(this)" type="button" value="AC ">
                        <center> <div class=" col-md-3 but" >5</div></center>
                     </button>
-                     <button type="button" value="AC ">
+                     <button id="6" onclick="gB(this)" type="button" value="AC ">
                         <div class=" col-md-3 but">6</div>
                     </button>
-                     <button type="button" value="AC ">
+                     <button id="-" onclick="gB(this)" type="button" value="AC ">
                         <div class="col-md-3 but">- </div>
                     </button>
-                     <button type="button" vcalue="AC ">
+                     <button id="1" onclick="gB(this)" type="button" vcalue="AC ">
                         <div class=" col-md-3 but">1</div>
                     </button>
-                     <button type="button" value="AC ">
+                     <button id="2" onclick="gB(this)" type="button" value="AC ">
                        <center> <div class=" col-md-3 but" >2 </div></center>
                     </button>
-                     <button type="button" value="AC ">
+                     <button id="3" onclick="gB(this)" type="button" value="AC ">
                         <div class="col-md-3 but"> 3</div>
                     </button>
-                     <button type="button" value="AC ">
-                        <div class=" col-md-3 but" onclick="alert('Hello world!')"> + </div>
+                     <button id="+" onclick="gB(this)" type="button" value="AC ">
+                        <div class=" col-md-3 but"> + </div>
                     </button>
-                    <button style="width:49%;" type="button" value="AC ">
+                    <button id="0" onclick="gB(this)" style="width:49%;" type="button" value="AC ">
                         <div class=" col-md-6 but"> 0 </div>
                     </button>
-                    <button type="button" value="AC ">
+                    <button id="decimal" onclick="gB(this)" type="button" value="AC ">
                         <div class=" col-md-3 but"> . </div>
                     </button>
-                    <button type="button" value="AC ">
+                    <button id="=" onclick="gB(this)" type="button" value="AC ">
                         <div class="col-md-3 but"> = </div>
                     </button>
                     
@@ -115,6 +118,22 @@
             </div>
         </div>
     </div>
+  
+   <!-- <script type="text/javascript">
+    	 function getButton(button){
+        var x=button.id;
+        switch(x)
+        {
+            //console.log("is");
+            case '1':{
+            console.log("1 detected");
+            alert("you typed 1");
+            break;}
+            default:
+            return false;
+        }
+    }
+    </script>-->
 </body>
 
 </html>
