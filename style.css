@@ -1,9 +1,6 @@
 #parent{
 	background-color: slategrey;
 }
-.result {
-    text-align: center;
-}
 
 .jumbotron {
     min-height: 500px;
@@ -19,4 +16,10 @@ button{
     width: 24%;
     padding-left: 5%;
     padding-top: 8%;
+}
+
+
+#log{
+    font-size: xx-large;
+    text-align: center;
 }
