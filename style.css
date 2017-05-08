@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
 #parent{
 	background-color: slategrey;
 }
@@ -23,3 +25,33 @@ button{
     font-size: xx-large;
     text-align: center;
 }
+/*footer*/
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline
+}
+.foot-text {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 15px;
+    text-align: center;
+}
+/*footer*/
